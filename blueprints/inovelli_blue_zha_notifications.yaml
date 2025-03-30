@@ -14,7 +14,9 @@ fields:
           manufacturer: Inovelli
         entity:
           integration: zha
-          domain: light
+          domain:
+            - light
+            - fan
   led:
     name: LED
     description: Choose which LED to control. Default is All.
